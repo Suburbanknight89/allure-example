@@ -28,7 +28,6 @@ public class PullRequestsWebTest {
     }
 
     @Test
-    @TM4J("AE-T6")
     @Microservice("Billing")
     @Story("Create new pull request")
     @Tags({@Tag("web"), @Tag("regress"), @Tag("smoke")})
