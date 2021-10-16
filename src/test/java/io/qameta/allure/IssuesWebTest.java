@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
  * @author eroshenkoam (Artem Eroshenko).
  */
 @Layer("web")
-@Owner("EZaytsev")
+@Owner("ZaytsevE")
 @Feature("Issues")
 public class IssuesWebTest {
 
@@ -42,7 +42,7 @@ public class IssuesWebTest {
     @Test
     @Microservice("Repository")
     @Story("Create new issue")
-    @Tags({@Tag("web"), @Tag("regress")})
+    @Tags({@Tag("web"), @Tag("Stable")})
     @JiraIssues({@JiraIssue("HOMEWORK-248")})
     @DisplayName("Adding note to advertisement")
     public void shouldAddLabelToIssue() {
